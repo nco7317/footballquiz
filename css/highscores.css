@@ -1,0 +1,32 @@
+
+body {
+  color: #fff;
+}
+
+#high-scores-list {
+  list-style: none;
+  margin-bottom: 20em;
+  font-size: 10px;
+  background-color: rgba(150,150,150,.1);
+  border-radius: 3px;
+  border: 2px solid;
+  border-color: #fff;
+  box-shadow: 1px 1px 10px #000000;
+  padding: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+.high-score {
+  font-size: 2.8em;
+  margin-bottom: 0.5em;
+}
+
+#highScores {
+  width: 100%;
+}
+
+#finalScore {
+  font-size: 40px;
+  margin-bottom: 5em;
+}
