@@ -213,9 +213,15 @@ input::placeholder {
 html, body {
 overflow-x: hidden;
 }
-.container {
+.body {
   width: 100%;
 }
+
+.button {
+  width: auto;
+}
+
+
 
 }
 @media (min-width: 481px) {
