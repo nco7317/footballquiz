@@ -2,10 +2,27 @@
 body {
   color: #fff;
 }
-
-.choice-container,
-#hud,
+/* --------------------------- Layout Containers -------------------------- */
+.container {
+  display: grid;
+  color: #fff;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "hud"
+  "main";
+}
+#hud {
+  grid-area: hud;
+  display: flex;
+}
 .main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.choice-container{
   display: flex;
 }
 

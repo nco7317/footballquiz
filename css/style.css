@@ -21,8 +21,9 @@ body {
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
- padding: 10em;
+ padding: 5em;
 }
+
 
 h1 {
   font-size: 5em;
@@ -35,6 +36,37 @@ h2 {
   margin-bottom: 4em;
 }
 
+
+/* --------------------------- Layout Containers -------------------------- */
+.container {
+  display: grid;
+  color: #fff;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "centertop centertop"
+  "center center";
+}
+.centertop {
+  grid-area: centertop;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  grid-area: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  font-size: 40px;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+/*
 .container,
 .col,
 .end-form-container {
@@ -64,7 +96,7 @@ h2 {
 .center {
   justify-content: center;
   align-items: center;
-}
+} */
 
 .justify-center {
   justify-content: center;
@@ -83,7 +115,7 @@ h2 {
 .button {
   font-size: 18px;
   padding: 1em 0;
-  width: 100%;
+  width: 10em;;
   text-align: center;
   margin-bottom: 3em;
   text-decoration: none;
