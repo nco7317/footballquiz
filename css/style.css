@@ -206,3 +206,37 @@ input::placeholder {
 #end {
   /* margin-top: 10em; */
 }
+/* Media Containers*/
+
+@media screen and (max-width: 480px) {
+
+html, body {
+overflow-x: hidden;
+}
+.container {
+  width: 100%;
+}
+
+}
+@media (min-width: 481px) {
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+  }
+
+}
+
+}
+@media (min-width: 750px) {
+    /* -------Base--------------------*/
+
+  .container {
+		width: 90%;
+		/* max-width: 1150px; */
+
+	}
+
+
+
+}
