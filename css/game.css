@@ -183,7 +183,7 @@ overflow-x: hidden;
   margin-top: 1em;
 }
 #progress-bar {
-  width: 30em;
+  width: 40em;
   height: 5em;
   border: 0.02em solid rgb(11,223,36);
   margin-top: 2em;
@@ -197,7 +197,9 @@ overflow-x: hidden;
   background: rgb(11,223,36);
   width: 0%;
 }
-
+#question {
+  margin: 1em;
+}
 }
 @media (min-width: 481px) {
 
