@@ -23,7 +23,9 @@ body {
  background-size: cover;
  padding: 5em;
 } */
-
+body {
+  background-color: #8f8771;
+}
 
 h1 {
   font-size: 5em;
