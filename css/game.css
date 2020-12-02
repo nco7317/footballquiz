@@ -136,9 +136,9 @@ h2 {
 }
 
 #progress-bar {
-  width: 400rem;
-  height: 30rem;
-  border: 0.2rem solid rgb(11,223,36);
+  width: 400em;
+  height: 30em;
+  border: 0.2em solid rgb(11,223,36);
   margin-top: 20em;
   margin-bottom: 20em;
   border-radius: 50px;
@@ -174,10 +174,10 @@ overflow-x: hidden;
   align-items: center;
   justify-content: center;
 }
-/* #progress-bar {
-  width: 400rem;
-  height: 30em;
-  border: 0.2em solid rgb(11,223,36);
+#progress-bar {
+  width: 40rem;
+  height: 3em;
+  border: 0.02em solid rgb(11,223,36);
   margin-top: 20em;
   margin-bottom: 20em;
   border-radius: 50px;
@@ -188,7 +188,7 @@ overflow-x: hidden;
   height: 100%;
   background: rgb(11,223,36);
   width: 0%;
-} */
+}
 
 }
 @media (min-width: 481px) {
