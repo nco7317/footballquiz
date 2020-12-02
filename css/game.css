@@ -169,7 +169,7 @@ overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 1em;
+  margin-top: 0;
   margin-bottom: 1em;
   height: auto;
 }
@@ -184,8 +184,8 @@ overflow-x: hidden;
   padding: 2em;
 }
 #progress-bar {
-  width: 35em;
-  height: 5em;
+  width: 30em;
+  height: 4em;
   border: 0.02em solid rgb(11,223,36);
   margin-top: 2em;
   margin-bottom: 2em;
