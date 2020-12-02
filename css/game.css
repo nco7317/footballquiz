@@ -181,6 +181,7 @@ overflow-x: hidden;
   justify-content: center;
   width: 100%;
   margin-top: 1em;
+  padding: 2em;
 }
 #progress-bar {
   width: 40em;
@@ -198,7 +199,7 @@ overflow-x: hidden;
   width: 0%;
 }
 #question {
-  margin: 1em;
+  margin-bottom: 1em;
 }
 }
 @media (min-width: 481px) {
