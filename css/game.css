@@ -152,10 +152,40 @@ h2 {
 }
 
 
+/* Media Containers*/
 
-/* @@media screen and (max-width: 768px) {
-  .choice-container {
-    min-width: 40em;
-  } */
+@media screen and (max-width: 480px) {
+
+html, body {
+overflow-x: hidden;
+}
+.body {
+  width: 100%;
+}
+
+
+
+
+}
+@media (min-width: 481px) {
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+  }
+
+}
+
+}
+@media (min-width: 750px) {
+    /* -------Base--------------------*/
+
+  .container {
+		width: 90%;
+		/* max-width: 1150px; */
+
+	}
+
+
 
 }
