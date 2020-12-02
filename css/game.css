@@ -161,6 +161,9 @@ h2 {
 html, body {
 overflow-x: hidden;
 }
+body {
+  padding: 2em;
+}
 .container {
   width: 100%;
 }
