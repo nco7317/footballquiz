@@ -179,7 +179,7 @@ overflow-x: hidden;
   width: 100%;
 }
 #progress-bar {
-  width: 100em;
+  width: 10em;
   height: 5em;
   border: 0.02em solid rgb(11,223,36);
   margin-top: 20em;
